@@ -1,6 +1,7 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import Slide from "react-reveal/Slide";
+import CustomButton from "../utils/custom-button";
 
 class Discount extends React.Component {
   constructor() {
@@ -42,7 +43,12 @@ class Discount extends React.Component {
                 quibusdam reprehenderit quis totam mollitia incidunt eius. Quia
                 dolore velit recusandae.
               </p>
-              <div>Button</div>
+              <CustomButton
+                text="Purchase Tickets"
+                bck="#ff8a00"
+                color="#fff"
+                link="google.com"
+              />
             </div>
           </Slide>
         </div>
